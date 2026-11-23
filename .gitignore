@@ -1,0 +1,15 @@
+# Secrets - NEVER commit. The service_role key / DB password bypass RLS.
+.env
+.env.*
+*.key
+*.pem
+
+# Supabase CLI local/temp state
+supabase/.temp/
+supabase/.branches/
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
